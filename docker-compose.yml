@@ -1,0 +1,16 @@
+services:
+  nginx:
+    build: ./nginx/
+    container_name: workout-tracker-nginx
+    ports:
+      - 80:80
+    volumes:
+      - ./app/:/var/www/html/
+
+  php:
+    build: ./php/
+    container_name: workout-tracker-php
+    expose:
+      - 9000
+    volumes:
+      - ./app/:/var/www/html/
