@@ -1,24 +1,12 @@
 <?php
     include_once("header.php");
 ?>
-    <header>
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>Test</li>
-            </ul>
-        </nav>
-    </header>
-    
-    <main>
-        <div id="content">
-            <?php
-                // We already checked if the page exists in header.php
-                include("pages/" . $page . ".php");
-            ?>
-        </div>
-    </main>
-    <?php echo $DB_HOST; ?>
+    <nav class="nav">
+        <a href="/" class="nav__item" data-link>Home</a>
+        <a href="/login" class="nav__item" data-link>Login</a>
+    </nav>
+    <div id="content"></div>
+    <script type="module" src="/js/main.js"></script>
 
 <?php
     include_once("footer.php");
