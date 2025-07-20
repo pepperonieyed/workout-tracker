@@ -1,8 +1,8 @@
 <?php
 
 $DB_HOST = "127.0.0.1";
-$DB_TABLE = "workoutplanner";
-$DB_USER = "workoutplanner";
+$DB_TABLE = "workouttracker";
+$DB_USER = "workouttracker";
 $DB_PASS = "";
 
 ?>
