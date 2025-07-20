@@ -14,7 +14,7 @@
 <html lang="en-GB">
 <head>
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1" />
-    <title>Workout Planner - <?php echo ucfirst($page); ?></title>
+    <title>Workout Tracker - <?php echo ucfirst($page); ?></title>
 </head>
 <body>
 
@@ -28,7 +28,7 @@
 <html lang="en-GB">
 <head>
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1" />
-    <title>Workout Planner - 404</title>
+    <title>Workout Tracker - 404</title>
 </head>
 <body>
         <h1>404 - Not Found</h1>
