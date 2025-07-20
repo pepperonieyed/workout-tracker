@@ -1,8 +1,16 @@
 <?php
 
+// --- CONFIGURATIION ---
+
+$DEBUG = false;
+
 $DB_HOST = "127.0.0.1";
 $DB_TABLE = "workouttracker";
 $DB_USER = "workouttracker";
 $DB_PASS = "";
+
+// --- END OF CONFIGURATION ---
+// WARNING: Changing below lines may lead to unexpected behaviour!
+$DEBUG ? error_reporting(E_ALL) : error_reporting(0);
 
 ?>
